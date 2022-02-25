@@ -1,0 +1,1444 @@
+* , .row{
+    padding: 0;
+    margin: 0;
+}
+
+
+header section.nav{
+    background-color: #525252;
+   
+}
+
+.malek{
+    display:none
+}
+
+header section.nav .first-title{
+    line-height: 80px;
+    color: #fff;
+    font-size: 20px;
+    
+}
+
+header section.nav .first-title .signin{
+    font-size: 16px;
+}
+header section.nav .first-title .icon{
+    font-size: 18px;
+    
+}
+
+header section.nav .first-title .add{
+    font-size: 18px;
+}
+
+header section.nav .first-title div{
+    cursor: pointer;
+}
+
+header section.nav .first-title span{
+    font-weight: bold;
+    
+}
+
+header section.nav .title-img img{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+header section.nav .first-title .all-modal .modal-dialog .modal-content{
+    background-image: url('../images/hsoub.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    direction: rtl;
+}    
+    
+ 
+
+
+header section.nav .first-title .all-modal .modal-dialog .modal-content .modal-header h5.modal-title{
+  color: black;
+  font-size: 14px;
+  opacity:.6
+}
+header section.nav .first-title .all-modal .modal-dialog .modal-content  .modal-body form  input{
+
+    box-shadow: none !important;
+    border: 1px solid #ebeef2;
+}
+
+header section.nav .first-title .all-modal .modal-dialog .modal-content  .modal-body form  button.close1{
+
+    box-shadow: none !important;
+    background-color: #fff !important;
+    color: #000;
+    border: 1px solid #ebeef2 !important;
+    opacity:.6
+}
+
+
+header section.nav .first-title .all-modal .modal-dialog .modal-content  .modal-body form  button.confirm1{
+
+    box-shadow: none !important;
+    background-color: #fff !important;
+    color: #000;
+    border: 1px solid #ebeef2 !important;
+    opacity:.6
+}
+
+
+header section.nav .first-title .all-modal .modal-dialog .modal-content  .modal-body form  button.confirm2{
+
+    display:none;
+    box-shadow: none !important;
+    background-color: #fff !important;
+    color: #000;
+    border: 1px solid #ebeef2 !important;
+    opacity:.6
+}
+
+
+
+
+.signin::after{
+    position: absolute;
+    content: ' |';
+    color: gray;
+    padding-left: 20px;
+}
+
+
+
+section.nav .icon::after{
+    position: absolute;
+    content: ' |';
+    color: gray;
+    padding-left: 20px;
+}
+
+section.nav .mustSign{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    top: 60px;
+   left: 100px;
+    line-height: 30px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 1px 1px 0px 0px gray;
+    display:none;
+}
+
+section.nav .bellAbsolute{
+   position: absolute;
+   width: 440px;
+   min-height: 300px;
+   background-color: #ebeef2;
+   z-index: 3;
+   display: none;
+   direction: rtl;
+   box-shadow: 2px 2px 2px #525252;
+   overflow-x: hidden;
+   overflow-y: scroll;
+}
+
+section.nav .bellAbsolute .bellAbsoluteTop{
+    background-color: #ebeef2;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid lightgray;
+ }
+
+ section.nav .bellAbsolute .bellAbsoluteTop span{
+    font-weight: bold;
+    cursor: pointer;
+
+ }
+ 
+ section.nav .bellAbsolute .bellAbsoluteTop .alarm{
+    font-size:18px;
+    font-weight: 400;
+    color: #000;
+ }
+
+ section.nav .bellAbsolute .bellAbsoluteTop .settingAlarm{
+    color: #37848b;
+    font-size: 18px;
+    cursor: pointer;
+ }
+ 
+ section.nav .bellAbsolute .bellAbsoluteTop .settingAlarm i{
+    font-size: 13px;
+ }
+
+ section.nav .bellAbsolute .trainer img{
+     height: 40px;
+     width: 40px;
+     border-radius: 50%;
+ }
+
+ section.nav .bellAbsolute .trainer .details{
+    color: #37848b;
+    cursor: pointer;
+}
+
+section.nav .bellAbsolute .trainer .time{
+    color: gray;
+    opacity: .6;
+}
+
+section.nav .bellAbsolute .bellAbsoluteFooter{
+    height: 50px;
+    line-height: 50px;
+    background-color: #ebeef2;
+    border-top: 1px solid lightgray;
+    color: #37848b;
+}
+
+
+
+
+
+/*start of div absolute will be show on click*/
+
+section.nav .absolute-message{
+    width: 440px;
+    min-height: 200px;
+    background-color: #fff;
+    position: absolute;
+    display: none;
+    direction: rtl;
+    box-shadow: 0px 1px 0px 0px #ebeef2;
+    scroll-margin-left: scroll;
+    z-index: 3;
+}
+
+
+section.nav .absolute-message .absolute-message-top{
+    direction: rtl;
+    background-color: #ebeef2;
+    height: 60px;
+}
+
+section.nav .absolute-message .absolute-message-top .new{
+    cursor: pointer;
+}
+
+section.nav .absolute-message .absolute-message-top div{
+    line-height: 60px;
+}
+
+section.nav .absolute-message .content img{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    
+}
+
+section.nav .absolute-message .absoluteMessageFooter{
+    background-color: #ebeef2;
+    color: #37848b;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+section.nav .absolute-message .absoluteMessageFooter .closeAbsoluteMessage{
+    position: absolute;
+    top: 0px;
+    right: 22px;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+
+
+section.nav .newMessage{
+    position: absolute;
+    width: 70%;
+    min-height: 770px;
+    background-color: #fff;
+    top: 20;
+    width: 87%;
+    z-index: 3;
+    direction: rtl;
+    display: none;
+    box-shadow: 5px 5px 5px #525252;
+    
+}
+
+section.nav .newMessage .rightMessage{
+    color: #333;
+    opacity: .3;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+section.nav .newMessage .closeMessage .closeMessageSon{
+    color: #3c6994;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+section.nav .newMessage  form span{
+    color:red
+}
+
+section.nav hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section.nav .newMessage  form .input1 input{
+    width: 30%;
+    box-shadow: none !important;
+}
+
+section.nav .newMessage  form .mainMessage{
+    border: 1px solid #ebeef2;
+    min-height: 300px;
+}
+
+section.nav .newMessage  form .mainMessage .letters{
+    height: 40px;
+    background-color: #ebeef2;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+section.nav .newMessage  form .mainMessage .letters div{
+   
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+}
+
+section.nav .newMessage  form .mainMessage .letters div:hover{
+   background-color: gray;
+}
+
+section.nav .newMessage  form .mainMessage .letters div:nth-of-type(2){
+    border-left: 1px solid gray
+ }
+
+ section.nav .newMessage  form .mainMessage .letters div:nth-of-type(5){
+    border-left: 1px solid gray
+ }
+
+
+
+ 
+section.nav .newMessage  form .mainMessage .messageContent{
+    background-color: #ebeef2;
+    height: 40px;
+    line-height: 40px;
+   
+}
+
+section.nav .newMessage  form .mainMessage .messageContent textarea{
+    width: 100%;
+    max-height: 250px;
+    border: 0;
+    outline: none;
+    padding-right: 20px;
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: auto;
+}
+
+section.nav .newMessage .messageFooter{
+    height: 50px;
+    line-height: 50px;
+    background-color:#ebeef2;
+    width: 100%;
+    
+}
+
+section.nav .newMessage .messageFooter .zip input{
+  display: none;
+}
+
+section.nav .newMessage .messageFooter .zip input[type="file"]{
+    display: none;
+   
+}
+
+
+section.nav .newMessage .messageFooter .zip label{
+    font-size: 13px;
+    opacity: .8;
+  }
+
+  section.nav .newMessage .messageFooter .zip span{
+    color: lightseagreen;
+    cursor: pointer;
+  }
+
+  section.nav .newMessage .messageFooter .anotherFiles .dropdown1{
+    position: relative;
+    color:white
+  }
+
+  section.nav .newMessage .messageFooter .anotherFiles .dropdown1 .dropdownSon{
+      position: absolute;
+      width: 45%;
+      height: 68px;
+      background-color: #fff;
+      left: 0;
+      top: 45px;
+      box-shadow: 5px 5px 5px gray;
+      border-radius: 5px;
+      display: none;
+      z-index: 3;
+      
+  }
+
+  section.nav .newMessage .messageFooter .anotherFiles .dropdown1 .dropdownSon input[type="file"]{
+   display: none;
+}
+
+section.nav .newMessage .messageFooter .anotherFiles .dropdown1 .dropdownSon div{
+  float: right;
+  padding-right: 10px;
+  color: #3c6994;
+}
+
+
+section.nav .newMessage .messageFooter .anotherFiles .dropdown1 .dropdownSon div:nth-of-type(2){
+  position: absolute;
+  top: 25px;
+  }
+
+  section.nav .newMessage .messageFooter .anotherFiles .dropdown1 button{
+   
+    box-shadow: none !important;
+  }
+
+  section.nav .newMessage .messageFooter .send {
+      background-color: #ebeef2;
+  }
+
+  section.nav .newMessage .messageFooter .send button{
+    margin-left: 13px;
+    box-shadow: none !important;
+}
+
+
+
+/*end of absolute divs with on click*/
+
+
+header section.nav .second-title{
+    position:relative
+}
+
+header section.nav .second-title .second-title-div{
+   float: right;
+}
+
+
+
+ .search form .form-group input{
+    background-color: gray;
+    direction: rtl;
+    box-shadow: none!important;
+    width: 400px;
+    border: none !important;
+   
+}
+
+.search form .form-group input::placeholder{
+    color: #fff;
+}
+
+ .search .searchSon{
+   
+    background-color:#ebeef2;;
+    min-height:200px;
+    width: 400px;
+    border-radius:  5px;
+    position: absolute;
+    z-index: 20;
+    display: none;
+    left: 15px;
+    top: 38px;
+    direction: rtl;
+    
+    
+}
+
+.search .searchSon div{
+    
+    padding-bottom: 10px;
+    padding-right: 15px;
+    color: #3c6994;
+    direction: rtl;
+    text-align: right;
+    
+   
+    
+}
+
+
+.ryada, .parmaga, .tasmem, .ops, .amal, .taswek, .parameg, .shahadat, .agweba, .kotob, .adaa{
+    display: none;
+}
+
+
+.active{
+    background-color: #ebeef2;
+}
+
+
+
+
+header section.nav .second-title .second-title-div .courses{
+    background-color: gray;
+    height: 40px;
+    width: 70px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+   
+}
+
+header section.nav .second-title .second-title-div .books{
+    background-color: gray;
+    height: 40px;
+    width: 70px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+header section.nav .second-title .second-title-div  .answers{
+    background-color: gray;
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+header section.nav .second-title .second-title-div .articles{
+    background-color: gray;
+    height: 40px;
+    width: 120px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+header section.nav .second-title .second-title-div  .my-courses{
+    background-color: green;
+    height: 40px;
+    width: 120px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+header section.nav .second-title .second-title-div  .main{
+    background-color: #ebeef2;
+    height: 40px;
+    width: 120px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+header section.activity{
+    background-color: #ebeef2;
+    min-height: 40px;
+    direction:rtl
+}
+
+
+.activity-title1
+ {
+    float: right;
+    position: relative;
+
+}
+
+.activity-title2, .activity-title3 
+, .activity-title4, .activity-title5, .activity-title6{
+   
+    position: relative;
+    display: none;
+
+}
+
+.activity-title1 div, .activity-title2 div, .activity-title3 div
+ ,.activity-title4 div, .activity-title5 div, .activity-title6 div{
+    font-size: 14px;
+    color: gray;
+    line-height: 40px;
+    margin-left: 30px;
+}
+
+
+section.home{
+    padding-top: 50px;
+}
+
+section.home .read{
+    color: #000;
+    opacity: .5;
+}
+
+section.home .read i{
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 5px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+section.home .home{
+    color: #000;
+    opacity: .5;
+    padding-left: 10px;
+}
+
+section.home .home i{
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 5px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+section.home hr{
+    margin-top: 10px;
+}
+
+/*end of homesection*/
+
+
+section.practical{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section.practical .text-center{
+    color: #000;
+    opacity: .6;
+}
+
+section.practical .text-center{
+    color: #000;
+    opacity: .6;
+}
+
+
+section.practical img{
+    max-width: 100%;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+/*end of practical section*/
+
+
+
+section.lessons{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #ebeef2;
+}
+
+section.lessons .text-center{
+    color: #000;
+    opacity: .6;
+}
+
+section.lessons img{
+    max-width: 50;
+    height: 50px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    
+}
+
+section.lessons .features{
+    background-color:#fff;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    box-shadow: 1px 1px 1px #fff;
+    cursor: pointer;
+}
+
+section.lessons .features .images{
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%,50%);
+
+}
+
+section.lessons .features .images img{
+    width: 60px;
+}
+
+/*end of lessons section*/
+
+section.questions{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    direction: rtl;
+}
+
+section.questions .text-center{
+    color: #000;
+    opacity: .6;
+}
+
+section.questions .questionsContent{
+    color: #000;
+    opacity: .6;
+}
+
+
+section.questions .questionsContent .business{
+    position: relative;
+    cursor: pointer;
+}
+
+
+section.questions .questionsContent .business::before{
+    content: ' ';
+    position: absolute;
+    width: 0%;
+    height: 0;
+    top: 35px;
+    left: 0;
+    display: none;
+
+}
+section.questions .questionsContent .business:hover::before{
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color:  #3c6994;
+    top: 35px;
+    display: block;
+}
+
+section.questions .questionsContent .freelancing{
+    position: relative;
+    cursor: pointer;
+}
+
+
+section.questions .questionsContent .freelancing::before{
+    content: ' ';
+    position: absolute;
+    width: 0%;
+    height: 0;
+    top: 35px;
+    left: 0;
+    display: none;
+
+}
+section.questions .questionsContent .freelancing:hover::before{
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color:  #3c6994;
+    top: 35px;
+    display: block;
+}
+
+section.questions .questionsContent .marketing{
+    position: relative;
+    cursor: pointer;
+}
+
+
+section.questions .questionsContent .marketing::before{
+    content: ' ';
+    position: absolute;
+    width: 0%;
+    height: 0;
+    top: 35px;
+    left: 0;
+    display: none;
+
+}
+section.questions .questionsContent .marketing:hover::before{
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color:  #3c6994;
+    top: 35px;
+    display: block;
+}
+
+
+section.questions .questionsContent .programming{
+    position: relative;
+    cursor: pointer;
+}
+
+
+section.questions .questionsContent .programming::before{
+    content: ' ';
+    position: absolute;
+    width: 0%;
+    height: 0;
+    top: 35px;
+    left: 0;
+    display: none;
+
+}
+section.questions .questionsContent .programming:hover::before{
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color:  #3c6994;
+    top: 35px;
+    display: block;
+}
+
+section.questions .questionsContent .design{
+    position: relative;
+    cursor: pointer;
+}
+
+
+section.questions .questionsContent .design::before{
+    content: ' ';
+    position: absolute;
+    width: 0%;
+    height: 0;
+    top: 35px;
+    left: 0;
+    display: none;
+
+}
+section.questions .questionsContent .design:hover::before{
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color:  #3c6994;
+    top: 35px;
+    display: block;
+}
+
+section.questions .questionsContent .devops{
+    position: relative;
+    cursor: pointer;
+}
+
+
+section.questions div::before{
+    content: ' ';
+    position: absolute;
+    width: 0%;
+    height: 0;
+    top: 35px;
+    left: 0;
+    display: none;
+
+}
+section.questions .questionsContent .devops:hover::before{
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color:  #3c6994;
+    top: 35px;
+    display: block;
+}
+
+section.questions .questionsContent .app{
+    position: relative;
+    cursor: pointer;
+}
+
+
+section.questions .questionsContent .app::before{
+    content: ' ';
+    position: absolute;
+    width: 0%;
+    height: 0;
+    top: 35px;
+    left: 0;
+    display: none;
+
+}
+section.questions .questionsContent .app:hover::before{
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color:  #3c6994;
+    top: 35px;
+    display: block;
+}
+
+section.questions .questionsContent .spicialist{
+    position: relative;
+    cursor: pointer;
+}
+
+
+section.questions .questionsContent .spicialist::before{
+    content: ' ';
+    position: absolute;
+    width: 0%;
+    height: 0;
+    top: 35px;
+    left: 0;
+    display: none;
+
+}
+section.questions .questionsContent .spicialist:hover::before{
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color:  #3c6994;
+    top: 35px;
+    display: block;
+}
+
+section.questions .rotation{
+    padding-top: 50px;
+}
+
+section.questions .rotation .rotationBusiness{
+    background-color: #fff;
+    border: 1px solid #ebeef2;
+    margin-bottom: 20px;
+}
+
+
+section.questions .rotation .rotationBusiness ul li{
+    font-size: 15px;
+    cursor: pointer;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+section.questions .rotation .rotationFreelancing{
+    background-color: #fff;
+    border: 1px solid #ebeef2;
+    margin-bottom: 20px;
+    display: none;
+    
+}
+
+section.questions .rotation .rotationFreelancing ul li{
+    font-size: 15px;
+    cursor: pointer;
+   
+}
+
+section.questions .rotation .rotationMarketing{
+    background-color: #fff;
+    border: 1px solid #ebeef2;
+    margin-bottom: 20px;
+    display: none;
+    
+}
+
+section.questions .rotation .rotationMarketing ul li{
+    font-size: 15px;
+    cursor: pointer;
+   
+}
+
+section.questions .rotation .rotationProgramming{
+    background-color: #fff;
+    border: 1px solid #ebeef2;
+    margin-bottom: 20px;
+    display: none;
+    
+}
+
+section.questions .rotation .rotationProgramming ul li{
+    font-size: 15px;
+    cursor: pointer;
+   
+}
+
+section.questions .rotation .rotationDesign{
+    background-color: #fff;
+    border: 1px solid #ebeef2;
+    margin-bottom: 20px;
+    display: none;
+    
+}
+
+section.questions .rotation .rotationDesign ul li{
+    font-size: 15px;
+    cursor: pointer;
+   
+}
+
+section.questions .rotation .rotationDevops{
+    background-color: #fff;
+    border: 1px solid #ebeef2;
+    margin-bottom: 20px;
+    display: none;
+    
+}
+
+section.questions .rotation .rotationDevops ul li{
+    font-size: 15px;
+    cursor: pointer;
+   
+}
+
+section.questions .rotation .rotationApp{
+    background-color: #fff;
+    border: 1px solid #ebeef2;
+    margin-bottom: 20px;
+    display: none;
+    
+}
+
+section.questions .rotation .rotationApp ul li{
+    font-size: 15px;
+    cursor: pointer;
+   
+}
+
+section.questions .rotation .rotationSpicialist{
+    background-color: #fff;
+    border: 1px solid #ebeef2;
+    margin-bottom: 20px;
+    display: none;
+    
+}
+
+section.questions .rotation .rotationSpicialist ul li{
+    font-size: 15px;
+    cursor: pointer;
+   
+}
+
+
+section.questions .result{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+/*end of questions section*/
+
+
+section.quality{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #ebeef2;
+}
+
+section.quality div{
+    cursor: pointer;
+}
+
+
+section.quality .text-center{
+    color: #000;
+    opacity: .6;
+}
+
+section.quality .card img{
+    width: 100%;
+    height: 300px;
+}
+
+section.quality .python .card .card-body .name {
+   color: #3c6994;
+}
+
+section.quality .python .card .card-body i {
+    color: yellow;
+ }
+ 
+ section.quality .entry .card .card-body .name {
+    color: #3c6994;
+ }
+ 
+ section.quality .entry .card .card-body i {
+     opacity: .3;
+  }
+
+  /*end of quality section*/
+
+  section.academy{
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+
+  section.academy img{
+    max-width: 100%;
+}
+
+section.academy .text-center{
+    color: #000;
+    opacity: .6;
+}
+
+section.academy .firstdiv{
+    line-height: 35px;
+    direction: rtl;
+    padding-bottom: 20px;
+}
+
+section.academy .seconddiv{
+    line-height: 35px;
+    direction: rtl;
+    padding-bottom: 20px;
+}
+
+section.academy .thirddiv span{
+    color: #3c6994;
+    cursor: pointer;
+}
+
+/*end of academy section*/
+
+  hr{
+      margin-top: 80px;
+  }
+
+  /*absolute hr*/
+
+  section.about{
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+ 
+  section.about .aboutHsoub{
+      font-size: 13px;
+      color: #000;
+      opacity: .6;
+  }
+
+  section.about .otherwise{
+    font-size: 13px;
+    color: #000;
+    opacity: .6;
+}
+
+section.about .otherwise span{
+    cursor: pointer;
+    color: #3c6994;
+    font-weight: bold;
+}
+
+/*end of about section*/
+
+section.pictures{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section.pictures .hsoub3{
+    width: 150px;
+    height: 50px;
+}
+
+section.pictures .d-flex{
+    justify-content: space-between;
+}
+
+section.pictures .d-flex img{
+    width: 100px;
+    height: 30px;
+}
+
+section.pictures .father{
+    color: #3c6994;
+}
+
+/*end of spictures section*/
+
+
+
+
+.small-screen{
+    display: none;
+ }
+
+ .small-screen i{
+   text-align: right;
+ }
+ 
+ 
+
+ .small-screen .smallScreenSearch{
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.small-screen .smallScreenIcon{
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.small-screen .fixed-menu{
+    position: fixed;
+    top: 0;
+    left: -320px;
+    width: 290px;
+    height: 100%;
+    background-color: #525252;
+    z-index: 100;
+}
+ 
+ 
+ .small-screen .fixed-menu .close{
+    position: absolute;
+    top: 0;
+    right: -30px;
+    background-color: #000;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    line-height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+ }
+
+
+ 
+ .small-screen .fixed-menu .smallIcon{
+    text-align: center;
+ }
+
+ .small-screen .fixed-menu .smallIcon .messageIcon
+ ,.small-screen .fixed-menu .smallIcon .bellIcon {
+    font-size: 20px;
+    color: #fff;
+    padding-top: 25px;
+ }
+
+ .small-screen .fixed-menu .smallIcon .check {
+    font-size: 10px;
+    font-weight: 300;
+   
+ }
+
+ .small-screen .fixed-menu .smallIcon button{
+     width: 100%;
+     margin-top: 30px;
+     font-size: 14px;
+     text-align: center;
+     box-shadow: none !important;
+ }
+
+ .small-screen .fixed-menu .smallIcon button.out{
+    width: 100%;
+    margin-top: 30px;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: none !important;
+    background-color: #fff !important;
+    color: #000;
+}
+
+.small-screen .fixed-menu .myaccount{
+    color: #fff;
+    margin-top: 20px;
+    position: absolute;
+    left: 0;
+    width:100%
+}
+
+
+.small-screen .fixed-menu .myaccount .account{
+    height: 40px;
+    background-color: #525252;
+    border-bottom: 2px solid gray;
+    line-height:40px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.small-screen .fixed-menu .myaccount2{
+    color: #fff;
+    margin-top: 20px;
+    position: absolute;
+    left: -300px;
+    width:100%;
+    background-color: #525252;
+    direction: rtl;
+    
+}
+
+
+.small-screen .fixed-menu .myaccount2 .account2{
+    height: 40px;
+   
+    border-bottom: 2px solid gray;
+    line-height:40px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.small-screen .fixed-menu .myaccount2 .account2 .back{
+    background-color: #000;
+    width: 100%;
+    right: 0;
+    position: absolute;
+    padding-right: 20px;
+}
+
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:280px) and (max-width:800px){
+    .icon , .menu ,.signin, .main-menu, .menu ,.add, .courses , section.home{
+        display: none;
+    }
+
+   .second-title, .bellAbsolute, .activity-title1, .activity-title2, .activity-title3, .activity-title4, .activity-title5, .activity-title6{
+       display: none;
+   }
+
+   header section.activity{
+    background-color: gray;
+    height: 70px;
+   
+}
+
+header section.nav{
+    height: 70px;
+}
+
+header section.nav .title-img img{
+    width: 90px;
+    height: 50px;
+    margin-top: 80px;
+}
+
+.small-screen{
+    display: block;
+ }
+
+ section.lessons .features{
+    width: 100%;
+}
+
+.questionsContent div{
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section.academy .firstdiv{
+    font-size: 14px;
+    direction: rtl;
+ 
+}
+
+section.academy .seconddiv{
+    font-size: 14px;
+   
+}
+
+section.academy .thirddiv{
+    font-size: 14px;
+   
+}
+
+
+.search .searchSon{
+    left: 0px;
+    top: 31px;
+    width: 100%;
+    box-shadow: 5px 5px 5px 5px gray !important;
+}
+
+.search form .form-group input{
+ background-color: #fff;
+    width: 100%;
+    border: 1px none !important;
+    border-top: none !important;
+    box-shadow: 1px 1px 1px 1px gray !important;
+    position:absolute;
+    left:0;
+    top:-6px;
+    z-index: 10;
+    display:none;
+   
+}
+
+.search form .form-group input::placeholder{
+    color: #000;
+}
+
+
+
+}
