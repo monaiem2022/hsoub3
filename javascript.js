@@ -613,12 +613,55 @@ $('#search').on('keyup',function(){
  if (final.includes('برمجه')){
     $('.parmaga').show()
   }
+
+  if(final.includes('مقالات')){
+    $('.searchSon div').show();
+  }
+
+  if (final.includes('تصميم')){
+    $('.parmaga').show();
+    $('.tasmem').show();
+    $('.ops').show();
+  }
+  if (final.includes('css')){
+    $('.parmaga').show();
+    $('.ops').show();
+  }
+
+  if (final.includes('html')){
+    $('.parmaga').show();
+    $('.ops').show();
+  }
+
+  if (final.includes('javascript')){
+    $('.parmaga').show();
+    $('.tasmem').show();
+  }
+
+  if (final.includes('python')){
+    $('.parmaga').show();
+    $('.tasmem').show();
+    $('.ops').show();
+  }
  
 });
 
 
 
 
-$('.smallScreenSearch').on('click',function(){
-  $('#search').show();
-});
+let smallScreenSearch = document.getElementById('smallScreenSearch');
+let search = document.getElementById('search');
+let searchSon = document.getElementById('searchSon');
+
+smallScreenSearch.onclick = function () {
+
+   if (search.style.display == 'block'){
+     search.style.display = 'none';
+     searchSon.style.display = 'none';
+   }  else {
+     search.style.display = 'block';
+   
+   }
+}
+
+
