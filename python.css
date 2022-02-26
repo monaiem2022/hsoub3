@@ -675,88 +675,24 @@ footer.payment  span{
 
 
 
-
-
-@media (min-width:280px) and (max-width:572px){
+@media (min-width:576px) and (max-width:767px) {
     section.nav-javascript .learn-son div{
 
-        display: none;
+        display:none
     }
 
     .video video{
-        left: 15px;
-        top: 25px;
-    }
-   /* .learn-son div {
-        display: none;
-    } */
-
-    section.viewVideo{
-        padding-top: 150px;
-        padding-bottom: 200px;
-        direction: rtl;
+        left:11px;
+        top:17px
     }
 
     section.viewVideo .videoTitle .main-title {
-        font-size: 27px;
-        text-align: center;
-    }
-
-    section.viewVideo .videoTitle li {
-        border-bottom: 1px solid lightgray;
-        margin-bottom: 30px;
-        list-style-type: none;
-    }
-
-    section.viewVideo .joinNow {
-        display: block;
-     }
-    
-    
-     section.viewVideo .joinNow .secondButton {
-        margin-right: 0px;
-        width: 100%;
-     }
-    
-     section.viewVideo .joinNow .firstButton {
+        font-size: 20px;
+        font-weight:500
         
-        width: 100%;
-     }
-
-     section.aboutCourse img{
-         width: 100%;
-     }
-    
-     .componentsVideo video{
-        position: absolute;
-        left: 5px;
-        top: 16px;
-    }
-    
-
-     section.studyNow .form button{
-        background-color: #ebeef2;;
-        direction: rtl;
-        width: 100%;
-        box-shadow: none !important;
-        height: 50px;
-      
     }
 
-    section.whyhsoub .forever{
-        text-align: center;
-     }
-
-     section.studyNow .form{
-        width: 100%;
-    }
-
-    section.studyNow .info{
-        width: 100%;
-        margin: auto;
-    }
-    
-    section.important .centeredImg {
+     section.important .centeredImg {
         display: block;
         margin-top: 0;
     }
@@ -765,32 +701,33 @@ footer.payment  span{
         
      }
 
-     footer.payment .paymenttitle{
-         position: relative;
-         top: 13px;
-        display: block;
-        text-align: center;
-        line-height: 20px;
+    .develop {
+        margin-top: 100px;
+    }
+
+    footer.payment  span{
+        color: #000;
        
+        font-size:14px;
+        opacity: .8;
     }
     
-    
+}
+
+
+
+@media (min-width:768px) and (max-width:991px) {
+    section.nav-javascript .learn-son div{
+        display:none
+    }
+
    
-}
-
-
-@media (min-width:600px) and (max-width:991px){
-    section.nav-javascript .learn-son div{
-
-        display: none;
-    }
-
     .video video{
-       
-        left: 32px;
-        top: 48px;
-       
+        left:14px;
+        top:23px
     }
+
+  
 
      section.important .centeredImg {
         display: block;
@@ -798,12 +735,13 @@ footer.payment  span{
     }
     section.important .centeredImg div{
         width: 100%;
+        display:block;
         
      }
     
 
     .learn-son div {
-        display: none;
+        display: block;
     }
 
     .develop {
@@ -813,37 +751,19 @@ footer.payment  span{
 
 
 
-@media (min-width:601px) and (max-width:991px){
-    section.nav-javascript .learn-son div{
 
-        display: none;
-    }
+@media (min-width:992px) and (max-width:1199px) {
 
-
-
-     section.important .centeredImg {
-        display: block;
-        margin-top: 0;
-    }
-    section.important .centeredImg div{
-        width: 100%;
-        
-     }
-    
-
-    .learn-son div {
-        display: none;
-    }
-
+   
     .video video{
-        left: 15px;
-        top: 20px;
+        left:20px;
+        top:31px
     }
-
 
     .develop {
         margin-top: 100px;
     }
+  
 }
 
 

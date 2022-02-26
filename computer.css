@@ -123,7 +123,7 @@ section.viewVideo .joinNow .secondButton {
     position: absolute;
     left: 24px;
     top: 30px;
-    width: 90%;
+    width: 93%;
     height: auto;
     border-radius: 10px;
     display: none;
@@ -788,47 +788,21 @@ footer.payment  span{
 }
 
 
-@media (min-width:573px) and (max-width:600px){
+@media (min-width:576px) and (max-width:767px) {
     section.nav-javascript .learn-son div{
 
-        display: none;
+        display:none
     }
 
     .video video{
-       
-        left: 25px;
-        top: 33px;
-       
+        left:9px;
+        top:13px
     }
 
-    .learn-son div {
-        display: none;
-    }
-
-    section.important .centeredImg {
-        display: block;
-        margin-top: 0;
-    }
-    section.important .centeredImg div{
-        width: 100%;
+    section.viewVideo .videoTitle .main-title {
+        font-size: 20px;
+        font-weight:500
         
-     }
-    
-    
-}
-
-
-@media (min-width:600px) and (max-width:991px){
-    section.nav-javascript .learn-son div{
-
-        display: none;
-    }
-
-    .video video{
-       
-        left: 32px;
-        top: 48px;
-       
     }
 
      section.important .centeredImg {
@@ -839,31 +813,34 @@ footer.payment  span{
         width: 100%;
         
      }
-    
-
-    .learn-son div {
-        display: none;
-    }
 
     .develop {
         margin-top: 100px;
     }
+
+    footer.payment  span{
+        color: #000;
+       
+        font-size:14px;
+        opacity: .8;
+    }
+    
 }
 
 
 
-@media (min-width:601px) and (max-width:991px){
+@media (min-width:768px) and (max-width:991px) {
     section.nav-javascript .learn-son div{
-
-        display: none;
+        display:none
     }
 
+   
     .video video{
-        left: 20px;
-        top: 23px;
-       
+        left:12px;
+        top:18px
     }
 
+  
 
      section.important .centeredImg {
         display: block;
@@ -871,24 +848,39 @@ footer.payment  span{
     }
     section.important .centeredImg div{
         width: 100%;
+        display:block;
         
      }
     
 
     .learn-son div {
-        display: none;
+        display: block;
     }
-
-    .video video{
-        left: 15px;
-        top: 20px;
-    }
-
 
     .develop {
         margin-top: 100px;
     }
 }
+
+
+
+
+@media (min-width:992px) and (max-width:1199px) {
+
+   
+    .video video{
+        left:18px;
+        top:23px
+    }
+
+    .develop {
+        margin-top: 100px;
+    }
+  
+}
+
+
+
 
 
 
