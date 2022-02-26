@@ -447,13 +447,15 @@ header section.nav .second-title .second-title-div{
    float: right;
 }
 
-
+.search{
+    position: absolute;
+}
 
  .search form .form-group input{
     background-color: gray;
     direction: rtl;
     box-shadow: none!important;
-    width: 400px;
+    width: 90%;
     border: none !important;
    
 }
@@ -465,7 +467,7 @@ header section.nav .second-title .second-title-div{
  .search .searchSon{
    
     background-color:#ebeef2;;
-    min-height:200px;
+    min-height:50px;
     width: 400px;
     border-radius:  5px;
     position: absolute;
@@ -474,8 +476,6 @@ header section.nav .second-title .second-title-div{
     left: 15px;
     top: 38px;
     direction: rtl;
-    
-    
 }
 
 .search .searchSon div{
@@ -1329,6 +1329,40 @@ section.pictures .father{
 
 
 
+.small-screen .fixed-menu .myaccount3{
+    color: #fff;
+    margin-top: 20px;
+    position: absolute;
+    left: -300px;
+    width:100%;
+    background-color: #525252;
+    direction: rtl;
+    
+}
+
+
+.small-screen .fixed-menu .myaccount3 .account3{
+    height: 40px;
+   
+    border-bottom: 2px solid gray;
+    line-height:40px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.small-screen .fixed-menu .myaccount3 .account3 .back{
+    background-color: #000;
+    width: 100%;
+    right: 0;
+    position: absolute;
+    padding-right: 20px;
+}
+
+
+
+
 
  
  
@@ -1414,30 +1448,42 @@ section.academy .thirddiv{
 }
 
 
-.search .searchSon{
-    left: 0px;
-    top: 31px;
-    width: 100%;
-    box-shadow: 5px 5px 5px 5px gray !important;
-}
 
-.search form .form-group input{
- background-color: #fff;
-    width: 100%;
-    border: 1px none !important;
-    border-top: none !important;
-    box-shadow: 1px 1px 1px 1px gray !important;
-    position:absolute;
-    left:0;
-    top:-6px;
-    z-index: 10;
-    display:none;
+/* .search{
+    position: absolute;
+    top: -30px;
+} */
+
+ .search form .form-group input{
+    background-color: #fff;
+    direction: rtl;
+    box-shadow: none!important;
+    width: 90%;
+    border: none !important;
    
 }
 
-.search form .form-group input::placeholder{
-    color: #000;
+
+
+.search{
+    top: -45px;
+    left: 0;
+    width: 50%;
+    
+    
 }
+
+.search input{
+    display: none;
+   
+}
+
+ .search .searchSon{
+   left: 0;
+   width: 90%;
+   
+}
+
 
 
 
