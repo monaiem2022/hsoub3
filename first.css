@@ -122,12 +122,13 @@ section.nav .mustSign{
     width: 200px;
     height: 30px;
     top: 60px;
-   left: 100px;
+    left: 100px;
     line-height: 30px;
     background-color: #fff;
     text-align: center;
     box-shadow: 1px 1px 0px 0px gray;
     display:none;
+    z-index:3
 }
 
 section.nav .bellAbsolute{
@@ -466,26 +467,28 @@ header section.nav .second-title .second-title-div{
 
  .search .searchSon{
    
-    background-color:#ebeef2;;
-    min-height:50px;
+    background-color:gray;
+    min-height:30px;
     width: 90%;
     border-radius:  5px;
     position: absolute;
     z-index: 20;
     display: none;
     left: 0px;
-    top: 38px;
+    top: 30px;
     direction: rtl;
-    background-color: gray;
+    
 }
 
 .search .searchSon div{
-    
+   
     padding-bottom: 10px;
     padding-right: 15px;
     color: #3c6994;
     direction: rtl;
     text-align: right;
+    cursor:pointer;
+   
     
    
     
