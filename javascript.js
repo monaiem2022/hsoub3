@@ -599,6 +599,8 @@ $('#search').on('keyup',function(){
   let search2 = $('#search');
   let final = search2.val();
   let searchResult = $('.searchResult');
+  $('.searchSon2').hide();
+
   if(final.includes('ريادة')){
     $('.ryada').show();
   }
@@ -647,6 +649,13 @@ $('#search').on('keyup',function(){
 });
 
 
+$('#search').on('click',function (){
+  $('.mustSign').hide();
+  $('.searchSon').show();
+
+})
+
+
 
 
 let smallScreenSearch = document.getElementById('smallScreenSearch');
@@ -663,5 +672,13 @@ smallScreenSearch.onclick = function () {
    
    }
 }
+
+// searchSon.children('div').onmouseout = function () {
+//   searchSon.style.backgroundColor= 'green'
+// }
+
+
+
+
 
 
