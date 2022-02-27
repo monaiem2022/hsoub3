@@ -669,6 +669,57 @@ footer.payment  span{
 
 
 
+@media (max-width:575.98px) {
+    section.nav-javascript .learn-son div{
+
+        display:none
+    }
+
+    .video video{
+        left:14px;
+        top:21px
+    }
+
+    section.viewVideo .videoTitle .main-title {
+        font-size: 20px;
+        font-weight:500
+        
+    }
+
+     section.important .centeredImg {
+        display: block;
+        margin-top: 0;
+    }
+    section.important .centeredImg div{
+        width: 100%;
+        
+     }
+
+    .develop {
+        margin-top: 100px;
+    }
+
+    footer.payment  span{
+        color: #000;
+       
+        font-size:14px;
+        opacity: .8;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
