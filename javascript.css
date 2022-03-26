@@ -604,15 +604,10 @@ footer.payment{
     position: relative;
 }
 
-footer.payment .paymenttitle{
-    display: flex;
-    justify-content: space-between;
-}
 
-footer.payment  span{
+footer.payment  .paymenttitle{
     color: #000;
-    font-weight: bold;
-    opacity: .8;
+    opacity: .5;
 }
 
 
@@ -634,10 +629,6 @@ footer.payment  span{
    display: none;
   
 }
-
-
-
-
 
 
 
@@ -679,6 +670,11 @@ footer.payment  span{
        
         font-size:14px;
         opacity: .8;
+    }
+
+    section.studyNow .form button{
+        width:190px
+      
     }
     
 }
@@ -724,6 +720,11 @@ footer.payment  span{
         font-size:14px;
         opacity: .8;
     }
+
+    section.studyNow .form button{
+        width:300px
+      
+    }
     
 }
 
@@ -760,6 +761,11 @@ footer.payment  span{
     .develop {
         margin-top: 100px;
     }
+
+    section.studyNow .form button{
+        width:100%
+      
+    }
 }
 
 
@@ -776,6 +782,8 @@ footer.payment  span{
     .develop {
         margin-top: 100px;
     }
+
+    
   
    
 }

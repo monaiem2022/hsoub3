@@ -121,8 +121,8 @@ section.viewVideo .joinNow .secondButton {
 
 .video video{
     position: absolute;
-    left: 24px;
-    top: 30px;
+    left: 20px;
+    top: 23px;
     width: 93%;
     height: auto;
     border-radius: 10px;
@@ -649,15 +649,12 @@ footer.payment{
     position: relative;
 }
 
-footer.payment .paymenttitle{
-    display: flex;
-    justify-content: space-between;
-}
 
-footer.payment  span{
+
+footer.payment  .paymenttitle{
     color: #fff;
     font-weight: bold;
-    opacity: .8;
+    opacity: .5;
 }
 
 
@@ -788,20 +785,19 @@ footer.payment  span{
 }
 
 
-@media (min-width:576px) and (max-width:767px) {
+@media (max-width:575.98px) {
     section.nav-javascript .learn-son div{
 
         display:none
     }
-
     .video video{
-        left:9px;
-        top:13px
+        left:11px;
+        top:14px
     }
 
     section.viewVideo .videoTitle .main-title {
         font-size: 20px;
-        font-weight:500
+        font-weight:500;
         
     }
 
@@ -829,6 +825,64 @@ footer.payment  span{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:576px) and (max-width:767px) {
+
+    section.viewVideo .videoTitle .main-title {
+        font-size: 15px;
+        font-weight:500;
+    }
+    section.nav-javascript .learn-son div{
+
+        display:none
+    }
+
+    .video video{
+        left:10px;
+        top:12px
+    }
+
+     section.important .centeredImg {
+        display: block;
+        margin-top: 0;
+    }
+    section.important .centeredImg div{
+        width: 100%;
+        
+     }
+
+    .develop {
+        margin-top: 100px;
+    }
+
+    footer.payment  span{
+        color: #000;
+        font-size:14px;
+        opacity: .8;
+    }
+
+    section.studyNow .form button{
+    width:300px
+  
+}
+    
+}
+
+
+
 @media (min-width:768px) and (max-width:991px) {
     section.nav-javascript .learn-son div{
         display:none
@@ -836,11 +890,10 @@ footer.payment  span{
 
    
     .video video{
-        left:12px;
-        top:18px
+        left:10px;
+        top:17px
     }
 
-  
 
      section.important .centeredImg {
         display: block;
@@ -870,7 +923,10 @@ footer.payment  span{
    
     .video video{
         left:18px;
-        top:23px
+        top:20px;
+    
+    }
+
     }
 
     .develop {
@@ -878,16 +934,5 @@ footer.payment  span{
     }
   
 }
-
-
-
-
-
-
-
-
-
-
-
 
 

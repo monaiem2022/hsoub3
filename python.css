@@ -119,8 +119,8 @@ section.viewVideo .joinNow .secondButton {
 
 .video video{
     position: absolute;
-    left: 19px;
-    top: 34px;
+    left: 23px;
+    top: 37px;
     width: 90%;
     height: auto;
     border-radius: 10px;
@@ -157,7 +157,9 @@ section.aboutCourse .aboutCourseTitle{
     font-size: 20px;
     font-weight: bold;
     color: #195e84;
+
 }
+
 
 section.aboutCourse .aboutCourseTitle::before{
     content: '';
@@ -623,22 +625,18 @@ section.important .importantTitle{
 footer.payment{
     direction: rtl;
     background-color: #165180;
-    min-height: 80px;
-    line-height: 80px;
+    min-height: 50px;
+    line-height: 50px;
     position: relative;
 }
 
-footer.payment .paymenttitle{
-    display: flex;
-    justify-content: space-between;
-}
 
-footer.payment  span{
+
+footer.payment  .paymenttitle{
     color: #fff;
-    font-weight: bold;
-    opacity: .8;
+    font-size:13px;
+    opacity: .5;
 }
-
 
 
 
@@ -665,8 +663,107 @@ footer.payment  span{
 
 
 
+@media (min-width:280px) and (max-width:572px){
 
+    section.nav-javascript .learn-son div{
 
+        display: none;
+    }
+    .video video{
+        left: 15px;
+        top: 25px;
+    }
+   /* .learn-son div {
+        display: none;
+    } */
+
+    section.viewVideo{
+        padding-top: 150px;
+        padding-bottom: 200px;
+        direction: rtl;
+       
+    }
+
+    section.viewVideo .videoTitle .main-title {
+        font-size: 27px;
+        text-align: center;
+    }
+
+    section.viewVideo .videoTitle li {
+        border-bottom: 1px solid lightgray;
+        margin-bottom: 30px;
+        list-style-type: none;
+    }
+
+    section.viewVideo .joinNow {
+        display: block;
+     }
+    
+    
+     section.viewVideo .joinNow .secondButton {
+        margin-right: 0px;
+        width: 100%;
+     }
+    
+     section.viewVideo .joinNow .firstButton {
+        
+        width: 100%;
+     }
+
+     section.aboutCourse img{
+         width: 100%;
+     }
+    
+     .componentsVideo video{
+        position: absolute;
+        left: 5px;
+        top: 16px;
+    }
+    
+
+     section.studyNow .form button{
+       
+        direction: rtl;
+        width: 100%;
+        box-shadow: none !important;
+        height: 50px;
+      
+    }
+
+    section.whyhsoub .forever{
+        text-align: center;
+     }
+
+     section.studyNow .form{
+        width: 100%;
+    }
+
+    section.studyNow .info{
+        width: 100%;
+        margin: auto;
+    }
+    
+    section.important .centeredImg {
+        display: block;
+        margin-top: 0;
+    }
+    section.important .centeredImg div{
+        width: 100%;
+        
+     }
+
+     footer.payment .paymenttitle{
+         position: relative;
+         top: 13px;
+        display: block;
+        text-align: center;
+        line-height: 20px;
+       
+    }
+    
+    
+   
+}
 
 
 @media (max-width:575.98px) {
@@ -677,12 +774,12 @@ footer.payment  span{
 
     .video video{
         left:14px;
-        top:21px
+        top:20px
     }
 
     section.viewVideo .videoTitle .main-title {
         font-size: 20px;
-        font-weight:500
+        font-weight:500;
         
     }
 
@@ -707,8 +804,6 @@ footer.payment  span{
     }
     
 }
-
-
 
 
 
@@ -727,20 +822,19 @@ footer.payment  span{
 
 
 @media (min-width:576px) and (max-width:767px) {
+
+    section.viewVideo .videoTitle .main-title {
+        font-size: 15px;
+        font-weight:500;
+    }
     section.nav-javascript .learn-son div{
 
         display:none
     }
 
     .video video{
-        left:11px;
-        top:17px
-    }
-
-    section.viewVideo .videoTitle .main-title {
-        font-size: 20px;
-        font-weight:500
-        
+        left:10px;
+        top:15px
     }
 
      section.important .centeredImg {
@@ -758,10 +852,14 @@ footer.payment  span{
 
     footer.payment  span{
         color: #000;
-       
         font-size:14px;
         opacity: .8;
     }
+
+    section.studyNow .form button{
+    width:300px
+  
+}
     
 }
 
@@ -775,7 +873,7 @@ footer.payment  span{
    
     .video video{
         left:14px;
-        top:23px
+        top:22px
     }
 
   
@@ -807,8 +905,8 @@ footer.payment  span{
 
    
     .video video{
-        left:20px;
-        top:31px
+        left:19px;
+        top:29px
     }
 
     .develop {
@@ -816,6 +914,5 @@ footer.payment  span{
     }
   
 }
-
 
 

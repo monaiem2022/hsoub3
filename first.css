@@ -17,12 +17,26 @@ header section.nav .first-title{
     line-height: 80px;
     color: #fff;
     font-size: 20px;
-    
 }
 
 header section.nav .first-title .signin{
     font-size: 16px;
 }
+
+
+
+
+/* header section.nav .first-title .boxSignIn .closeBoxSignIn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+} */
+
+
+
+
+ 
+
 header section.nav .first-title .icon{
     font-size: 18px;
     
@@ -240,14 +254,19 @@ section.nav .absolute-message .content img{
 
 section.nav .absolute-message .absoluteMessageFooter{
     background-color: #ebeef2;
-    color: #37848b;
+    color: red;
     position: relative;
     height: 40px;
     line-height: 40px;
     cursor: pointer;
     font-weight: bold;
-
+    font-size: 12px;
 }
+
+
+
+
+
 
 section.nav .absolute-message .absoluteMessageFooter .closeAbsoluteMessage{
     position: absolute;
@@ -264,12 +283,12 @@ section.nav .absolute-message .absoluteMessageFooter .closeAbsoluteMessage{
 
 section.nav .newMessage{
     position: absolute;
-    width: 70%;
-    min-height: 770px;
+    width: 87%;
+    min-height: 790px;
     background-color: #fff;
     top: 20;
-    width: 87%;
-    z-index: 3;
+  
+    z-index: 4;
     direction: rtl;
     display: none;
     box-shadow: 5px 5px 5px #525252;
@@ -407,12 +426,15 @@ section.nav .newMessage .messageFooter .zip label{
 
   section.nav .newMessage .messageFooter .anotherFiles .dropdown1 .dropdownSon input[type="file"]{
    display: none;
+  
+
 }
 
 section.nav .newMessage .messageFooter .anotherFiles .dropdown1 .dropdownSon div{
   float: right;
   padding-right: 10px;
   color: #3c6994;
+  font-size: 12px;
 }
 
 
@@ -441,11 +463,19 @@ section.nav .newMessage .messageFooter .anotherFiles .dropdown1 .dropdownSon div
 
 
 header section.nav .second-title{
-    position:relative
+    position:relative;
+    
 }
 
 header section.nav .second-title .second-title-div{
    float: right;
+
+}
+
+header section.nav .second-title .second-title-div .follow a{
+    color:rgba(0,0,0 ,0.6);
+    text-decoration:none;
+    font-size: 14px;
 }
 
 .search{
@@ -453,7 +483,7 @@ header section.nav .second-title .second-title-div{
 }
 
  .search form .form-group input{
-    background-color: gray;
+    background-color: #fff;
     direction: rtl;
     box-shadow: none!important;
     width: 90%;
@@ -465,46 +495,10 @@ header section.nav .second-title .second-title-div{
     color: #fff;
 }
 
- .search .searchSon{
-   
-    background-color:gray;
-    min-height:30px;
-    width: 90%;
-    border-radius:  5px;
-    position: absolute;
-    z-index: 20;
-    display: none;
-    left: 0px;
-    top: 30px;
-    direction: rtl;
-    
-}
-
-.search .searchSon div{
-   
-    padding-bottom: 10px;
-    padding-right: 15px;
-    color: #3c6994;
-    direction: rtl;
-    text-align: right;
-    cursor:pointer;
-   
-    
-   
-    
-}
-
-
-.ryada, .parmaga, .tasmem, .ops, .amal, .taswek, .parameg, .shahadat, .agweba, .kotob, .adaa{
-    display: none;
-}
-
 
 .active{
     background-color: #ebeef2;
 }
-
-
 
 
 header section.nav .second-title .second-title-div .courses{
@@ -567,6 +561,10 @@ header section.nav .second-title .second-title-div  .main{
     cursor: pointer;
 }
 
+header section.nav .second-title .second-title-div  .main a{
+    color: #000;
+    text-decoration: none;
+}
 
 header section.activity{
     background-color: #ebeef2;
@@ -579,6 +577,109 @@ header section.activity{
  {
     float: right;
     position: relative;
+
+}
+
+header section.activity .activity-title1 .part{
+    display: none;
+    position: absolute;
+    height: 300px;
+    width: 200px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px  gray;
+    border-radius: 20px;
+    z-index: 10;
+    text-align: right;
+    padding: 10px;
+    color:#3c6994;
+}
+
+header section.activity .activity-title1 .part a{
+    text-decoration: none;
+}
+
+header section.activity .activity-title1 .part div{
+    color:#3c6994;
+    padding-right: 10px;
+    cursor: pointer;
+  
+}
+
+header section.activity .activity-title1 .part div:hover{
+    color: brown;
+}
+
+
+
+
+header section.activity .activity-title1 .part div:first-of-type{
+    background-color: lightgray;
+    border-radius: 10px;
+    width: 100%;
+    color:#000;
+    padding-right: 10px;
+    font-weight: 400;
+}
+
+
+header section.activity .activity-title1 .part div:last-of-type{
+    background-color: #525252;
+    border-radius: 10px;
+    width: 100%;
+    color:#fff;
+    padding-right: 10px;
+    font-weight: 400;
+}
+
+header section.activity .activity-title1 .two{
+    display: none;
+    position: absolute;
+    height: 130px;
+    width: 200px;
+    right: 200px;
+    top: 40px;
+    background-color: #fff;
+    box-shadow: 2px 2px 2px  gray;
+    border-radius: 20px;
+    z-index: 10;
+    text-align: right;
+    padding: 10px;
+}
+
+header section.activity .activity-title1 .two a{
+    color:#3c6994;
+    padding-right: 10px;
+    cursor: pointer;
+  
+}
+
+header section.activity .activity-title1 .two a:hover{
+    color: brown;
+}
+
+header section.activity .activity-title1 .two div:first-of-type{
+    background-color:#fff;
+    border-radius: 10px;
+    width: 100%;
+    color:#3c6994;
+    padding-right: 10px;
+    font-weight: 400;
+}
+
+header section.activity .activity-title1 .two div:first-of-type:hover{
+   color: brown;
+}
+
+header section.activity .activity-title1 .part div:last-of-type{
+    background-color: #fff;
+    color:#3c6994;
+}
+
+
+
+.activity-title1 a:hover{
+    color: gray;
+    text-decoration: none;
 
 }
 
@@ -595,8 +696,17 @@ header section.activity{
     font-size: 14px;
     color: gray;
     line-height: 40px;
-    margin-left: 30px;
+    margin-left: 15px;
+    cursor: pointer;
 }
+
+.activity-title1 a, .activity-title2 a, .activity-title3 a
+ ,.activity-title4 a, .activity-title5 a, .activity-title6 a{
+    color: gray;
+    text-decoration: none;
+}
+
+
 
 
 section.home{
@@ -1198,7 +1308,8 @@ section.pictures .father{
    text-align: right;
  }
  
- 
+
+
 
  .small-screen .smallScreenSearch{
     position: absolute;
@@ -1298,6 +1409,11 @@ section.pictures .father{
     justify-content: space-between;
 }
 
+.small-screen .fixed-menu .myaccount .account a{
+    color:#fff;
+    text-decoration: none;
+}
+
 
 .small-screen .fixed-menu .myaccount2{
     color: #fff;
@@ -1319,6 +1435,11 @@ section.pictures .father{
     padding-right: 20px;
     display: flex;
     justify-content: space-between;
+}
+
+.small-screen .fixed-menu .myaccount2 .account2 a {
+    color: #fff;
+    text-decoration: none;
 }
 
 
@@ -1488,6 +1609,12 @@ section.academy .thirddiv{
    
 }
 
+section.nav .newMessage input{
+ 
+    width: 100%;
+   
+    
+}
 
 
 
