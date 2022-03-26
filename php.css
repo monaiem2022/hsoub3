@@ -684,9 +684,8 @@ footer.payment  .paymenttitle{
 
 
 
-@media (max-width:575.98px) {
+@media (min-width:280px) and (max-width:530px) {
     section.nav-javascript .learn-son div{
-
         display:none
     }
 
@@ -729,6 +728,21 @@ footer.payment  .paymenttitle{
 }
 
 
+@media (min-width:540px) and (max-width:575px) {
+
+    section.nav-javascript .learn-son div{
+        display:none
+    }
+
+    .video video{
+        left:33px;
+        top:40px
+    }
+
+
+}
+
+
 
 
 
@@ -740,7 +754,7 @@ footer.payment  .paymenttitle{
     }
 
     .video video{
-        left:18px;
+        left:16px;
         top:18px
     }
 

@@ -122,7 +122,7 @@ section.viewVideo .joinNow .secondButton {
 .video video{
     position: absolute;
     left: 20px;
-    top: 23px;
+    top: 28px;
     width: 93%;
     height: auto;
     border-radius: 10px;
@@ -780,54 +780,70 @@ footer.payment  .paymenttitle{
        
     }
     
+}
     
    
-}
 
 
-@media (max-width:575.98px) {
-    section.nav-javascript .learn-son div{
 
-        display:none
-    }
-    .video video{
-        left:11px;
-        top:14px
-    }
 
-    section.viewVideo .videoTitle .main-title {
-        font-size: 20px;
-        font-weight:500;
+    @media (min-width:280px) and (max-width:530px) {
+        section.nav-javascript .learn-son div{
+            display:none
+        }
+    
+        .video video{
+            left:10px;
+            top:17px
+        }
+    
+        section.viewVideo .videoTitle .main-title {
+            font-size: 20px;
+            font-weight:500
+            
+        }
+    
+         section.important .centeredImg {
+            display: block;
+            margin-top: 0;
+        }
+        section.important .centeredImg div{
+            width: 100%;
+            
+         }
+    
+        .develop {
+            margin-top: 100px;
+        }
+    
+        footer.payment  span{
+            color: #000;
+           
+            font-size:14px;
+            opacity: .8;
+        }
+    
+        section.studyNow .form button{
+            width:190px
+          
+        }
         
-    }
-
-     section.important .centeredImg {
-        display: block;
-        margin-top: 0;
-    }
-    section.important .centeredImg div{
-        width: 100%;
-        
-     }
-
-    .develop {
-        margin-top: 100px;
-    }
-
-    footer.payment  span{
-        color: #000;
-       
-        font-size:14px;
-        opacity: .8;
     }
     
-}
-
-
-
-
-
-
+    
+    @media (min-width:540px) and (max-width:575px) {
+    
+        section.nav-javascript .learn-son div{
+            display:none
+        }
+    
+        .video video{
+            left:15px;
+            top:47px
+        }
+    
+    
+    }
 
 
 
@@ -852,7 +868,7 @@ footer.payment  .paymenttitle{
 
     .video video{
         left:10px;
-        top:12px
+        top:13px
     }
 
      section.important .centeredImg {

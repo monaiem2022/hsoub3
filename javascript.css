@@ -109,8 +109,8 @@ section.viewVideo .joinNow .secondButton {
 
 .video video{
     position: absolute;
-    left: 22px;
-    top: 90px;
+    left: 26px;
+    top: 40px;
     width: 90%;
     height: auto;
     border-radius: 10px;
@@ -635,9 +635,8 @@ footer.payment  .paymenttitle{
 
 
 
-@media (max-width:575.98px) {
+@media (min-width:280px) and (max-width:530px) {
     section.nav-javascript .learn-son div{
-
         display:none
     }
 
@@ -678,6 +677,22 @@ footer.payment  .paymenttitle{
     }
     
 }
+
+
+@media (min-width:540px) and (max-width:575px) {
+
+    section.nav-javascript .learn-son div{
+        display:none
+    }
+
+    .video video{
+        left:23px;
+        top:36px
+    }
+
+
+}
+
 
 
 
