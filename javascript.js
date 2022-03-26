@@ -1,3 +1,127 @@
+
+$('.smallScreenIcon').on('click', function () {
+  $(this).toggleClass('malek');
+  if($(this).hasClass('malek')){
+    $('.fixed-menu').animate({
+         left : 0
+         
+    }, 500)
+  } 
+
+})    // this function is to small-screen in html
+
+$('.close').on('click',function (){
+  $('.fixed-menu').animate({
+    left : '-320px'
+  }, 500)
+});
+
+$('.myaccountIcon').on('click', function () {
+ 
+  $(this).toggleClass('ll');
+  if($(this).hasClass('ll')){
+    $('.myaccount').animate({
+         left : '-300px'
+         
+    }, 500)
+  } 
+
+  $('.myaccount2').animate({
+     left:0
+  }, 500)
+
+})    // this function is to small-screen in html
+
+
+$('.back').on('click', function () {
+  $(this).toggleClass('ll');
+  if($(this).hasClass('ll')){
+    $('.myaccount').animate({
+         left : 0
+         
+    }, 500)
+  } 
+
+  $('.myaccount2').animate({
+    left : '-300px'
+    
+}, 500)
+  
+});
+
+
+$('#search').on('keyup',function(){
+
+  let search2 = $('#search');
+  let final = search2.val();
+
+
+  if(final.includes('ج')){
+    $(search2.val('جافاسكريبت'));
+    $(search2).css('cursor','pointer') ;
+ 
+     $(search2).on('click',function () {
+       location = 'javascript.html'
+     });
+  }
+
+  else if(final.includes('ر')){
+    $(search2.val('لغة روبى'));
+    $(search2).css('cursor','pointer') ;
+ 
+     $(search2).on('click',function () {
+       location = 'ruby.html'
+     });
+  }
+
+
+  else if(final.includes('و')){
+    $(search2.val('واجهات المستخدم'));
+    $(search2).css('cursor','pointer') ;
+ 
+     $(search2).on('click',function () {
+       location = 'frontend.html'
+     });
+  }
+  else if(final.includes('بى')){
+    $(search2.val('لغة بى اتش بى'));
+    $(search2).css('cursor','pointer') ;
+ 
+     $(search2).on('click',function () {
+       location = 'php.html'
+     });
+  }
+  
+  else if(final.includes('با')){
+    $(search2.val('لغة بايثون'));
+    $(search2).css('cursor','pointer') ;
+ 
+     $(search2).on('click',function () {
+       location = 'python.html'
+     });
+  }
+
+  else if(final.includes('ك')){
+    $(search2.val('كل الانشظة'));
+    $(search2).css('cursor','pointer') ;
+ 
+     $(search2).on('click',function () {
+       location = 'allactivity.html'
+     });
+  }
+
+});
+
+
+$('#search').on('click',function (){
+  $('.mustSign').hide();
+
+
+});
+
+
+
+
 let signIn = document.getElementById('signIn');
 let close = document.getElementById('close');
 let confirm1 = document.getElementById('confirm1');
@@ -118,6 +242,28 @@ messageIcon.onclick = function () {
 }
 
 
+let messageIconSmall = document.getElementById('messageIconSmall');
+
+messageIconSmall.onclick = function () {
+
+  if(signIn.innerHTML == 'تسجيل الدخول'){
+    mustSign.style.display = 'block';
+    mustSign.style.zIndex = '101'
+    bellAbsolute.style.display = 'none';
+    
+    
+  } else{
+    absoluteMessage.style.display = 'block';
+    absoluteMessage.style.zIndex = '101';
+    newMessage.style.zIndex = '102';
+    bellAbsolute.style.display = 'none';
+    mustSign.style.display = 'none';
+   
+  }
+}
+
+
+
 closeAbsoluteMessage.onclick = function () {
   absoluteMessage.style.display = 'none'
 }
@@ -134,8 +280,11 @@ bellIcon.onclick = function () {
     bellAbsolute.style.display = 'block';
     absoluteMessage.style.display = 'none';
     mustSign.style.display = 'none';
-  
   }
+}
+
+button.onclick = function () {
+  mustSign.style.display = 'none'
 }
 
 
@@ -152,10 +301,6 @@ closeBellAbsolute.onclick = function () {
 
 
 
-
-$('.content img').on('click',function(){
-  $('.d-flex').html('عارف انك عاوزهم لينك بس مش دلوقتى هههه')
-});
 
 
 $('.footerIcon').on('click',function(){
@@ -271,11 +416,45 @@ rightFont.onclick = function () {
    }
 
 
+   send.onclick = function () {
+    if(textarea.value == ''){
+      textarea.innerHTML = 'مينفعش تبعت قبل ما تكتب الرسالة و الا هتعصبنى عليك.....'
+    } 
+    else if (textarea.value == 'مينفعش تبعت قبل ما تكتب الرسالة و الا هتعصبنى عليك.....'){
+      textarea.innerHTML = 'انت مصمم تعصبنى عليك....'
+    } 
+    else if(textarea.value =='انت مصمم تعصبنى عليك....' ){
+      textarea.innerHTML = 'مرة كمان و هيتفل حسابك...'
+    }
+    else if (textarea.value == 'مرة كمان و هيتفل حسابك...'){
+      button.innerHTML = 'تسجيل الدخول';
+      newMessage.style.display = 'none';
+      absoluteMessage.style.display = 'none';
+      textarea.innerHTML = '';
+    }
+    else {
+      textarea.innerHTML = ''
+    }
+  }
+  
 
 
 
 
 
+
+
+$('.all').on('mouseover',function () {
+  $(this).next().slideToggle(500);
+  $('.part').not($(this).next()).slideUp(500)
+ 
+})
+
+
+// $('.accordion .title .question').on('click',function () {
+//   $(this).next().slideToggle(500);
+//   $('.accordion .title .answer').not($(this).next()).slideUp(500)
+// })
 
 
 
@@ -336,16 +515,23 @@ $('.my-courses').on('mouseover',function(){
   //end of activity section
 
 
-$('.smallScreenIcon').on('click',function(){
-  $(this).toggleClass('malek');
-  if($(this).hasClass('malek')){
- 
-    $('.fixed-menu').animate({
-     
-      left : 0 ,
-    }, 500);
-  }
-});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -490,9 +676,9 @@ spicialist.onclick = function () {
 
 $('.follow li').on('mouseover',function (){
   $('.follow li').removeClass('active');
-  $('.follow li').css('color','#fff');
+  $('.follow li').css('color','#000');
   $(this).addClass('active');
-  $(this).css('color','#000');
+  $(this).css('color','#fff');
  
 })
 
@@ -502,61 +688,8 @@ $('.main').on('mouseout',function(){
 
 
 
-$('.smallScreenIcon').on('click', function () {
-  $(this).toggleClass('malek');
-  if($(this).hasClass('malek')){
-    $('.fixed-menu').animate({
-         left : 0
-         
-    }, 500)
-  } 
-
-})    // this function is to small-screen in html
-
-$('.close').on('click',function (){
-  $('.fixed-menu').animate({
-    left : '-320px'
-  }, 500)
-});
-
-$('.myaccountIcon').on('click', function () {
- 
-  
 
 
-  $(this).toggleClass('ll');
-  if($(this).hasClass('ll')){
-    $('.myaccount').animate({
-         left : '-300px'
-         
-    }, 500)
-  } 
-
-  $('.myaccount2').animate({
-     left:0
-  }, 500)
-
-})    // this function is to small-screen in html
-
-
-
-$('.back').on('click', function () {
-  $(this).toggleClass('ll');
-  if($(this).hasClass('ll')){
-    $('.myaccount').animate({
-         left : 0
-         
-    }, 500)
-  } 
-
-  $('.myaccount2').animate({
-    left : '-300px'
-    
-}, 500)
-
-  
-  
-})    // this function is to small-screen in html
 
 
 
@@ -594,88 +727,50 @@ $('.back').on('click',function(){
 
 
 
-$('#search').on('keyup',function(){
-  $('.searchSon').show();
-  let search2 = $('#search');
-  let final = search2.val();
-  let searchResult = $('.searchResult');
-  $('.searchSon2').hide();
-
-  if(final.includes('ريادة')){
-    $('.ryada').show();
-  }
- if (final.includes('رياده')){
-    $('.ryada').show()
-  }
- 
- if(final.includes('برمجة')){
-    $('.parmaga').show()
-  }
-
- if (final.includes('برمجه')){
-    $('.parmaga').show()
-  }
-
-  if(final.includes('مقالات')){
-    $('.searchSon div').show();
-  }
-
-  if (final.includes('تصميم')){
-    $('.parmaga').show();
-    $('.tasmem').show();
-    $('.ops').show();
-  }
-  if (final.includes('css')){
-    $('.parmaga').show();
-    $('.ops').show();
-  }
-
-  if (final.includes('html')){
-    $('.parmaga').show();
-    $('.ops').show();
-  }
-
-  if (final.includes('javascript')){
-    $('.parmaga').show();
-    $('.tasmem').show();
-  }
-
-  if (final.includes('python')){
-    $('.parmaga').show();
-    $('.tasmem').show();
-    $('.ops').show();
-  }
- 
-});
 
 
-$('#search').on('click',function (){
-  $('.mustSign').hide();
-  $('.searchSon').show();
 
-})
+
+
+
+
+
+
+
+
+
+
+let smallScreenIcon = document.getElementById('smallScreenIcon')
+
+smallScreenIcon.onclick = function () {
+  smallScreenIcon.style.color = 'green'
+}
 
 
 
 
 let smallScreenSearch = document.getElementById('smallScreenSearch');
 let search = document.getElementById('search');
-let searchSon = document.getElementById('searchSon');
 
-smallScreenSearch.onclick = function () {
 
-   if (search.style.display == 'block'){
-     search.style.display = 'none';
-     searchSon.style.display = 'none';
-   }  else {
-     search.style.display = 'block';
-   
-   }
-}
 
-// searchSon.children('div').onmouseout = function () {
-//   searchSon.style.backgroundColor= 'green'
+// // searchSon.children('div').onmouseout = function () {
+// //   searchSon.style.backgroundColor= 'green'
 // }
+
+
+
+
+// let searchSon = $("#searchSon");
+          
+
+// searchSon.children("div").onmouseout = function () {
+// //     ^^^^^^^^^^^^^^^^^^
+//   searchSon.style.backgroundColor = "green";
+// };
+
+
+
 
 
 
