@@ -667,7 +667,8 @@ footer.payment .paymenttitle{
 
     .video video{
         left:15px;
-        top:20px
+        top:24px;
+        border-radius:0
     }
 
     section.viewVideo .videoTitle .main-title {
@@ -679,6 +680,7 @@ footer.payment .paymenttitle{
      section.important .centeredImg {
         display: block;
         margin-top: 0;
+       
     }
     section.important .centeredImg div{
         width: 100%;

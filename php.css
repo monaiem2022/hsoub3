@@ -690,8 +690,9 @@ footer.payment .paymenttitle{
     }
 
     .video video{
-        left:21px;
-        top:25px
+        left:25px;
+        top:28px;
+        border-radius: 0;
     }
 
     section.viewVideo .videoTitle .main-title {
