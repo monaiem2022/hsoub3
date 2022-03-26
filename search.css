@@ -1,0 +1,208 @@
+* , .row{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+section.searchSite{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    direction: rtl;
+  
+}
+
+section.searchSite .site{
+    font-size: 30px;
+}
+
+section.searchSite .inputSerach{
+    min-height: 600px;
+    background-color: #ebeef2;
+    padding-bottom: 50px;
+}
+
+section.searchSite .inputSerach .inputSerchText{
+    width: 90%;
+    padding-top: 30px;
+    margin: auto;
+}
+
+section.searchSite .inputSerach .inputSerchText i{
+    width: 90%;
+    margin: auto;   
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+section.searchSite .inputSerach .inputSerchText input{
+    height: 60px;
+}
+
+section.searchSite .inputSerach .inputSerachSon {
+    background-color: #fff;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    min-height: 200px;
+    padding-right: 20px;
+    cursor: pointer;
+  
+}
+
+
+
+section.searchSite .inputSerach .inputSerachSon .searchKeyword {
+    color: #37848b;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+section.searchSite .inputSerach .inputSerachSon .searchBook {
+    color: #37848b;
+    font-size: 18px;
+    font-weight: 400;
+    margin-right: 15px;
+}
+
+section.searchSite .inputSerach .inputSerachSon .searchKeyword span,
+section.searchSite .inputSerach .inputSerachSon .searchBook span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+section.searchSite .inputSerach .inputSerachSon .searchKeyword input,
+section.searchSite .inputSerach .inputSerachSon .searchBook input {
+    display: none;
+    height: 60px;
+    width: 98%;
+}
+
+
+section.searchSite .sortContent{
+    padding-top: 30px;
+}
+
+section.searchSite .sortContent .content{
+    font-size: 20px;
+}
+
+
+section.searchSite .sortContent  .radio{
+    padding-bottom: 20px;
+    margin-top: 10px;
+    color: #37848b;
+   
+}
+
+
+
+
+
+section.searchSite .sortContent  .radio1{
+    background-color: #4d4d4d;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    /* width: 180px; */
+    transition: all .5s ease;
+    color: #fff;
+    
+}
+
+
+section.searchSite .sortContent  .radio1:hover{
+    background-color: brown
+}
+
+section.searchSite .sortContent hr{
+    margin: 0;
+}
+
+
+.oo{
+    display: none;
+}
+
+
+
+
+
+
+.tasneef{
+    width: 20%;
+    height: 340px;
+    background-color: lightgray;
+    position: fixed;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%,50%);
+    display: none;
+    z-index: 10;
+    transition: all 1s ease;
+    
+
+}
+
+.tasneef button{
+    width: 100%;
+    text-align: right;
+    position: relative;
+    background-color: lightgray;
+    box-shadow: none !important;
+    border: 0;
+    outline: 0;
+    padding-right: 10px;
+    display: block;
+    /* padding-top: 8px; */
+    height: 40px;
+   
+    
+}
+
+.tasneef button i{
+   top: 12px;
+   left: 4px;
+    position: absolute;
+    color: #000;
+}
+
+.choose{
+  
+    padding-top: 10px;
+    padding-right: 15px;
+    background-color: #fff;
+    margin: auto;
+    display: none;
+    overflow-Y: scroll;
+    margin-top: 10px;
+    height: 80%;
+    border: 2px solid lightblue;
+  
+}
+
+.choose div{
+
+    padding-right: 10px;
+  
+    background-color: #fff;
+   
+    
+}
+
+.empty{
+    position: fixed;
+    width:200px;
+    height: 200px;
+    background-color: red;
+    transform: scale(0);
+}
+
+
+@media (min-width:360px) and (max-width:991px){
+    .tasneef {
+       width: 100%;
+       height: 10%;
+       background-color: red;
+    }
+}
